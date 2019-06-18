@@ -1,0 +1,52 @@
+$main_text_color: #e7eaf6;
+$secondary_text_color: #a2a8d3;
+$secondary_bgk_color: #38598b;
+$main_bgk_color: #113f67;
+
+.App {
+    background-color: $secondary_bgk_color;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+    color: $main_text_color;
+    margin: 10px;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: justify;
+}
+
+.insideBox {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.secondaryText {
+    color: $secondary_text_color;
+}
+
+h1 {
+    text-align: center;
+}
+
+.buttonsArea {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: $main_bgk_color;
+    color: $secondary_text_color;
+    border: 1px black solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    flex: 1 1 auto;
+    align-items: center;
+    box-shadow: 2px 2px 2px black;
+}
+
+button:hover {
+    transition-duration: 300ms;
+    transform: translateY(3px);
+}
