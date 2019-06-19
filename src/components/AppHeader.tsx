@@ -11,7 +11,7 @@ export const AppHeader: React.FC<Props> = (props) => {
 			<p className="secondaryText">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt odio, sapiente cum quasi at totam
 				accusamus, rerum tenetur aliquid quia error eveniet dignissimos sint voluptate illo voluptates saepe
-				consectetur accusantium!
+				consectetur accusantium!!
 			</p>
 		</div>
 	);
